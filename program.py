@@ -1,8 +1,6 @@
 import re
 
-def add(*num_list):
-    #reg= re.compile(r'\d+')
-    num_list= f'{num_list}'
+def add(num_list):
     total=0
     numbers= re.findall(r'-?\d+', num_list)
     negatives= []
